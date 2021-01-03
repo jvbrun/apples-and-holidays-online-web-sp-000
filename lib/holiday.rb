@@ -27,11 +27,11 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # Christmas AND the New Year's arrays
    {
     holiday_hash.each do {|season, holiday|
-      if season == "winter"
-        holiday.each do |value|
-          value << supply
+      if season == "winter" {
+        holiday.each do {|value| value << supply}
     }
   end
+    }
 end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
