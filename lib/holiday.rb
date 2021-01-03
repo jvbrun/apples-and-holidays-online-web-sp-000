@@ -30,7 +30,6 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       if season == "winter" {
         holiday.each do {|value| value << supply}
     }
-    }
 end
 
 def add_supply_to_memorial_day(holiday_hash, supply)
